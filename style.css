@@ -1,0 +1,36 @@
+body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
+    text-align: center;
+}
+#start {
+    border: black solid 2px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+#start:hover {
+    background-color: #aaffff;
+}
+#Projects {
+    margin-top: 1em;
+    border: black solid 2px;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+#RD {
+    margin-top: 1em;
+    border: black solid 2px;
+    background-color: #aaffff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+.Project {
+    margin: 0.5em;
+}
