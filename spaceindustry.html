@@ -5,19 +5,31 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <h2 id="Year">Year 1</h2>
+    <h2 id="Year">Month 1</h2>
     <h3 id="Funds">Funds: $0M</h3>
-    <button id="NextYear" type="button" onclick="NextYear()">Next Year</button>
+    <button id="NextYear" type="button" onclick="NextYear()">Next Month</button>
     <h3 id="Popularity">Popularity: 1</h3>
+    <h4 id="Growth">Growth Rate: 101%</h4>
     <div id="Projects">
         <h3>Projects</h3>
         <button onclick="P1()" class="Project" id="P1">
             <h4>R&D Complex<br>$25M Funds</h4>
         </button>
+        <button onclick="P2()" class="Project" id="P2">
+            <h4>Hire Researcher<br><span id="P2_Cost">$10M Funds</span></h4>
+        </button>
     </div>
     <div id="RD">
         <h3>Research & Development</h3>
         <h4 id="RP">RP: 0</h4>
+        <h4 id="Researchers">Researchers: 1
+        </h4>
+        <button onclick="R1()" class="Research" id="R1">
+            <h4>Crowdfunding<br>1,000RP</h4>
+        </button>
+        <button onclick="R2()" class="Project" id="R2">
+            <h4>Increase Growth Rate<br><span id="R2_Cost">500RP</span></h4>
+        </button>
     </div>
     <script src="script.js"></script>
 </body>

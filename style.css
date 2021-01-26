@@ -32,5 +32,10 @@ body {
     padding-bottom: 1em;
 }
 .Project {
-    margin: 0.5em;
+    width: 96%;
+    margin: 2%;
+}
+.Research {
+    width: 96%;
+    margin: 2%;
 }
