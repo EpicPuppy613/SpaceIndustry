@@ -121,7 +121,7 @@ function R2() {
         rp = rp - R2_Cost
         R2_Cost = Math.round(R2_Cost * 1.5)
         UpdateResearch();
-        document.getElementById("Growth").innerHTML = "Growth Rate: " + growth * 100 + "%";
+        document.getElementById("Growth").innerHTML = "Growth Rate: " + round(growth * 100) + "%";
         document.getElementById("R2_Cost").innerHTML = new Intl.NumberFormat('en-US', { maximumSignificantDigits: 4 }).format(R2_Cost) + "RP";
     }
 }
